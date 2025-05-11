@@ -40,43 +40,35 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
+<!DOCTYPE html>
 <html>
-<title>Top Software Industries</title>
-<body>
-<table border="2" cellspacing="10" cellpadding="6">
-<caption>Top 5 Revenue Generating Software Companies</caption>
-<tr>
-  <th>s.no</th>
-  <th>companies</th>
-  <th>revenue</th>
-</tr>
-<tr>
-  <th>1</th>
-  <th>Microsoft</th>
-  <th>65 billion</th>
-</tr>
-<tr>
-  <th>2</th>
-  <th>Oracle</th>
-  <th>29.6 billion</th>
-</tr>
-<tr>
-  <th>3</th>
-  <th>IBM</th>
-  <th>29.1 billion</th>
-</tr>
-<tr>
-  <th>4</th>
-  <th>SAP</th>
-  <th>16.4 billion</th>
-</tr>
-<tr>
-  <th>5</th>
-  <th>Symantec</th>
-  <th>5.6 billion</th>
-</tr>
-</table>
-</body>
+    <body bgcolor="PINK">
+        <table border="5" cellpadding="22" align="center" bgcolor="cyan">
+            <caption align="center">SMARTPHONE CONFIGURATION</caption>
+        
+            <tr bgcolor="blue">
+                <th>S.NO</th><th>CONFIGURATION</th><th>DETAILS</th>
+            </tr>
+            <tr>
+                <td>1</td><td>PROCESSOR</td><td>Snapdragon 888</td>
+            </tr>
+            <tr>
+                <td>2</td><td>RAM</td><td>8GB</td>
+            </tr>
+            <tr>
+                <td>3</td><td>STORAGE</td><td>128 GB</td>
+            </tr>
+            <tr>
+                <td>4</td><td>OS</td><td>Android 12</td>
+            </tr>
+            <tr>
+                <td>5</td><td>CAMERA</td><td>64MP</td>
+            </tr>
+            <tr>
+                <td>6</td><td>BATTERY</td><td>4000mAh</td>
+            </tr>
+        </table>
+    </body>
 </html>
 """
 
@@ -98,9 +90,9 @@ httpd.serve_forever()
 
 NAME           : S KANUSHA SREE
 REGISTER NUMBER: 212224040149
-![Alt text](<Screenshot from 2025-04-09 14-07-16.png>)
 
-![Alt text](<Screenshot from 2025-04-09 14-08-43.png>)
+![alt text](<Screenshot 2025-05-11 174249.png>)
 
+![alt text](<Screenshot 2025-05-11 173547.png>)
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
