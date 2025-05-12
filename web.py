@@ -3,33 +3,19 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
 <html>
-    <body bgcolor="PINK">
-        <table border="5" cellpadding="22" align="center" bgcolor="cyan">
-            <caption align="center">SMARTPHONE CONFIGURATION</caption>
-        
-            <tr bgcolor="blue">
-                <th>S.NO</th><th>CONFIGURATION</th><th>DETAILS</th>
-            </tr>
-            <tr>
-                <td>1</td><td>PROCESSOR</td><td>Snapdragon 888</td>
-            </tr>
-            <tr>
-                <td>2</td><td>RAM</td><td>8GB</td>
-            </tr>
-            <tr>
-                <td>3</td><td>STORAGE</td><td>128 GB</td>
-            </tr>
-            <tr>
-                <td>4</td><td>OS</td><td>Android 12</td>
-            </tr>
-            <tr>
-                <td>5</td><td>CAMERA</td><td>64MP</td>
-            </tr>
-            <tr>
-                <td>6</td><td>BATTERY</td><td>4000mAh</td>
-            </tr>
-        </table>
-    </body>
+<head>
+    <title>TCP/IP Protocol Suite</title>
+</head>
+<body bgcolor="PINK">
+    <h1 align="center">LIST OF PROTOCOLS IN TCP/IP PROTOCOL SUITE</h1>
+    <table border="5" cellpadding="15" align="center" bgcolor="lightblue">
+        <tr><th>Layer</th><th>Protocols</th></tr>
+        <tr><td>Application Layer</td><td>HTTP, FTP, SMTP, DNS, Telnet, POP3</td></tr>
+        <tr><td>Transport Layer</td><td>TCP, UDP</td></tr>
+        <tr><td>Internet Layer</td><td>IP, ICMP, IGMP, ARP, RARP</td></tr>
+        <tr><td>Network Access Layer</td><td>Ethernet, Wi-Fi, PPP</td></tr>
+    </table>
+</body>
 </html>
 """
 

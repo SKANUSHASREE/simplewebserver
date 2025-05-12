@@ -93,6 +93,6 @@ REGISTER NUMBER: 212224040149
 
 ![alt text](<Screenshot 2025-05-11 174249.png>)
 
-![alt text](<Screenshot 2025-05-11 173547.png>)
+![alt text](<Screenshot 2025-05-12 102853.png>)
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
